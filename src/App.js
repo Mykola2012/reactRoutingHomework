@@ -1,22 +1,21 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.scss'
-import Header from './components/Header'
 import HomePage from './pages/HomePage'
-import UsersLoader from './pages/UsersLoader'
-import UserListPage from './pages/UserListPage'
 import NotFound from './pages/NotFound'
-import SignUpForm from './pages/SindUpForm'
+import Components from './pages/Components'
+import Contacts from './pages/Contacts'
+import Layout from './components/Layout'
 
 function App () {
   return (
     <>
-      <Header />
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='usersLoader' element={<UsersLoader />} />
-        <Route path='userListPage' element={<UserListPage />} />
-        <Route path='signUpForm' element={<SignUpForm />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='/' element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path='components/*' element={<Components />} />
+          <Route path='contacts' element={<Contacts />} />
+          <Route path='*' element={<NotFound />} />
+        </Route>
       </Routes>
     </>
   )

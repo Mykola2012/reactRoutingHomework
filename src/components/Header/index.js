@@ -12,14 +12,11 @@ const Header = () => (
       <NavLink style={defineNavLinkStyle} to='/'>
         Home
       </NavLink>
-      <NavLink style={defineNavLinkStyle} to='/usersLoader'>
-        Users Loader
+      <NavLink style={defineNavLinkStyle} to='/components'>
+        Components
       </NavLink>
-      <NavLink style={defineNavLinkStyle} to='/userListPage'>
-        User List Page
-      </NavLink>
-      <NavLink style={defineNavLinkStyle} to='/signUpForm'>
-        SignUpForm
+      <NavLink style={defineNavLinkStyle} to='/contacts'>
+        Contacts
       </NavLink>
     </nav>
   </header>
