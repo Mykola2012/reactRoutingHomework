@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import UsersLoader from './pages/UsersLoader'
 import UserListPage from './pages/UserListPage'
 import NotFound from './pages/NotFound'
+import SignUpForm from './pages/SindUpForm'
 
 function App () {
   return (
@@ -14,6 +15,7 @@ function App () {
         <Route path='/' element={<HomePage />} />
         <Route path='usersLoader' element={<UsersLoader />} />
         <Route path='userListPage' element={<UserListPage />} />
+        <Route path='signUpForm' element={<SignUpForm />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </>

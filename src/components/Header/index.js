@@ -18,6 +18,9 @@ const Header = () => (
       <NavLink style={defineNavLinkStyle} to='/userListPage'>
         User List Page
       </NavLink>
+      <NavLink style={defineNavLinkStyle} to='/signUpForm'>
+        SignUpForm
+      </NavLink>
     </nav>
   </header>
 )
