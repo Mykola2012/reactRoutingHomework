@@ -1,0 +1,36 @@
+.mainHeader {
+  width: 100%;
+
+  background-color: rgba(15, 15, 15, 0.753);
+}
+
+.container {
+  max-width: 1000px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.mainTitle {
+  font-size: 25px;
+  color: rgb(249, 252, 252);
+}
+
+.wrapperLinnk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperLinnk > a {
+  padding-right: 10px;
+}

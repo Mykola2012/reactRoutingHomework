@@ -2,22 +2,23 @@ import { NavLink } from 'react-router-dom'
 import styles from './Header.module.scss'
 
 const defineNavLinkStyle = ({ isActive }) => ({
-  color: isActive ? 'red' : 'blue'
+  color: isActive ? 'rgb(64, 227, 233)' : 'rgb(249, 252, 252)'
 })
 
 const Header = () => (
-  <header>
-    <h1>Main Page</h1>
-    <nav>
-      <NavLink style={defineNavLinkStyle} to='/'>
-        Home
+  <header className={styles.mainHeader}>
+    <nav className={`${styles.navHeader} ${styles.container}`}>
+      <NavLink to='/'>
+        <h1 className={styles.mainTitle}>My Homeworks</h1>
       </NavLink>
-      <NavLink style={defineNavLinkStyle} to='/components'>
-        Components
-      </NavLink>
-      <NavLink style={defineNavLinkStyle} to='/contacts'>
-        Contacts
-      </NavLink>
+      <div className={styles.wrapperLinnk}>
+        <NavLink style={defineNavLinkStyle} to='/components'>
+          Components
+        </NavLink>
+        <NavLink style={defineNavLinkStyle} to='/contacts'>
+          Contacts
+        </NavLink>
+      </div>
     </nav>
   </header>
 )

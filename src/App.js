@@ -6,7 +6,7 @@ import Components from './pages/Components'
 import Contacts from './pages/Contacts'
 import Layout from './components/Layout'
 
-function App () {
+const App = () => {
   return (
     <>
       <Routes>
