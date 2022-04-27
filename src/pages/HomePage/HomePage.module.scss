@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 45px;
+}
+
+.imgHello {
+  max-width: 500px;
+  min-width: 320px;
+  object-fit: cover;
+}
