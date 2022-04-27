@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.subTitle {
+  font-size: 45px;
+}
+
+.linkWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(15, 15, 15, 0.753);
+  border-bottom: 1px solid rgba(15, 15, 15, 0.753);
+}
+
+.linkWrapper a {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 10px;
+}

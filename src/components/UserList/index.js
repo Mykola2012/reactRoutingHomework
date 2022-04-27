@@ -1,4 +1,5 @@
 import UsersListItem from '../UserListItem'
+import styles from './UserList.module.scss'
 
 function UsersList ({ users, setUsers, setUpdatedUsers }) {
   const mapUser = (u, index) => {
@@ -28,7 +29,7 @@ function UsersList ({ users, setUsers, setUpdatedUsers }) {
     )
   }
 
-  return <ul>{users.map(mapUser)}</ul>
+  return <ul className={styles.ulWrapper}>{users.map(mapUser)}</ul>
 }
 
 export default UsersList

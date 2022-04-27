@@ -1,11 +1,13 @@
 .listItem {
-  max-width: 70%;
+  max-width: 35%;
   min-width: 320px;
-  list-style-type: none;
+  min-height: 170px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
+  list-style-type: none;
 }
 
 .imgUser {

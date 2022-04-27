@@ -1,4 +1,5 @@
 .mainComtainer {
+  width: 91%;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -38,6 +39,7 @@
 }
 
 .ulUserWrapper {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
