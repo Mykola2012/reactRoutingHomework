@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.subTitle {
+  font-size: 45px;
+}
+
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgba(15, 15, 15, 0.753);
+  border-bottom: 1px solid rgba(15, 15, 15, 0.753);
+  font-size: 20px;
+  padding: 10px 50px;
+  margin-top: 15%;
+}
+
+.contactsWrapper a {
+  color: rgb(2, 2, 2);
+  padding-left: 10px;
+  font-weight: 600;
+}
