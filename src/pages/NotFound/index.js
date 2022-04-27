@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import styles from './NotFound.module.scss'
 
 const NotFound = () => {
   const navigate = useNavigate()
@@ -11,8 +12,8 @@ const NotFound = () => {
   })
 
   return (
-    <main>
-      <h2>The page not found</h2>
+    <main className={styles.container}>
+      <h2 className={styles.subTitle}>The page not found</h2>
       <Link to='/'>Home</Link>
     </main>
   )

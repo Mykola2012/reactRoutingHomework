@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.subTitle {
+  font-size: 45px;
+}
+
+.container a {
+  font-size: 25px;
+}
